@@ -1,3 +1,12 @@
+/**
+ * Basic example of OTA (over the air) updates for ESP8266 boards such
+ * as the Itead Sonoff. Just blink, nothing special, but with the
+ * necessary scaffolding for OTA.
+ *
+ * For more information see:
+ *   http://www.superhouse.tv/17-home-automation-control-with-sonoff-arduino-openhab-and-mqtt/
+ */
+
 #include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
